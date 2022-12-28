@@ -74,7 +74,7 @@ class MPU6050 {
 		void Calibrate ();
 
 		// Gets and sets
-    float readTemperature();
+    		float readTemperature();
 		float GetGyroXOffset () { return gyroXOffset; };
 		float GetGyroYOffset () { return gyroYOffset; };
 		float GetGyroZOffset () { return gyroZOffset; };
